@@ -1,2 +1,1 @@
-# Responsive-Portfolio
-Responsive design UCSD Coding Bootcamp
+# Basic-Portfolio
