@@ -334,6 +334,14 @@ textarea{
 		padding-right: 40px;
 	}
 
+	header div h1{
+		top: 0;
+		bottom:0;
+		font-size: 2em;
+		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
+	}
+
 	.wrapper{
 		width: auto;
 		padding: 40px;
@@ -381,8 +389,70 @@ textarea{
 	}
 }
 
-@media screen and (max-width: 769px)and (max-width: 980px){
+@media screen and (min-width: 769px) and (max-width: 980px){
 	
+	body{
+		max-width: 980px;
+	}
+
+	header div{
+		width: auto;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	header div h1{
+		top: 0;
+		bottom:0;
+		font-size: 2em;
+		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
+	}
+
+	.wrapper{
+		width: auto;
+		padding: 40px;
+	}
+
+	#profilePic{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	.leftBox{
+		width: 60%;
+		margin-bottom: 10px;
+		overflow: auto;
+		margin-bottom: 200px;
+	}
+	.rightBox{
+		width: 35%;
+	}
+
+	.gallery{
+		float: left;
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+	.gallery img{
+		width: 100%;
+	}
+
+	.gallery div {
+		width: auto;
+		left: 0;
+		right: 0;
+	}
+
+	input, textarea{
+		width: 100%;
+	}
+
+	form input:nth-child(10){
+		width: auto;
+	}
 }
 
 
