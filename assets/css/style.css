@@ -1,6 +1,5 @@
-* {
-  margin: 0;
-}
+
+
 
 .wrapper{
 	width: 960px;
@@ -179,16 +178,19 @@ textarea{
 
 .footer{
 	width: 100%;
-	clear: both;
 	background-color: #666666;
-	color: #ffffff;
-	text-align: center;
-	padding: 50px;
+	padding: 30px 0px;
 	border-top:6px solid #4aaaa5;
 	position: fixed;
 	left: 0;
 	bottom: 0;
+}
 
+.footer p{
+	color: white;
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
 }
 
 .gallery{
@@ -227,4 +229,102 @@ textarea{
 .gallery:hover{
  opacity: 1;
 }
+
+@media screen and (max-width: 640px){
+
+	body{
+		max-width: 640px;
+	}
+
+	header{
+		position: static;
+		width: 100%;
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+	header div{
+		width: 100%;
+		text-align: center;
+		overflow: auto;
+		height: auto;
+	}
+	header div h1{
+		font-size: 2em;
+		width: 100%;
+		height: auto;
+		float: none;
+		display: block;
+		position: static;
+		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
+
+
+	}
+	header nav{
+		display: block;
+		width: 100%;
+		float: none;
+		margin:0 auto;
+	}
+
+	header nav a{
+		width: 33%;
+		text-align: center;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	.wrapper{
+		width: auto;
+		padding: 40px;
+	}
+
+	#profilePic{
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	.leftBox{
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
+	.rightBox{
+		width: 100%;
+		float: none;
+		margin-bottom: 200px;
+	}
+
+	.gallery{
+		float: none;
+		width: 100%;
+	}
+
+	.gallery img{
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.gallery div {
+		width: 100%;
+	}
+
+	input, textarea{
+		width: 100%;
+	}
+
+	form input:nth-child(10){
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 641px) and (max-width:768px) {
+	
+}
+
+@media screen and (max-width: 769px)and (max-width: 980px){
+	
+}
+
 
